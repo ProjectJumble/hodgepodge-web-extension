@@ -1,0 +1,260 @@
+{
+  "systemError": {
+    "message": "Error"
+  },
+  "systemForbidden": {
+    "message": "Access has been forbidden"
+  },
+  "systemInternalError": {
+    "message": "An internal error has occurred. If the problems persist, please try reinstalling the extension."
+  },
+  "systemNetworkResponseTimeout": {
+    "message": "It seems our servers are on a coffee break..."
+  },
+  "systemNetworkResponseUnsuccessful": {
+    "message": "Network response was not successful"
+  },
+
+  "popupDomain": {
+    "message": "Domain"
+  },
+  "popupTitle": {
+    "message": "Title"
+  },
+  "popupContent": {
+    "message": "Content"
+  },
+
+  "popupScoreDomainHeadingUnsure": {
+    "message": "Unsure"
+  },
+  "popupScoreDomainHeadingBias": {
+    "message": "Bias"
+  },
+  "popupScoreDomainHeadingClickbait": {
+    "message": "Clickbait"
+  },
+  "popupScoreDomainHeadingConspiracy": {
+    "message": "Conspiracy"
+  },
+  "popupScoreDomainHeadingCredible": {
+    "message": "Credible"
+  },
+  "popupScoreDomainHeadingFake": {
+    "message": "Fake"
+  },
+  "popupScoreDomainHeadingHate": {
+    "message": "Hate"
+  },
+  "popupScoreDomainHeadingJunksci": {
+    "message": "Junk Science"
+  },
+  "popupScoreDomainHeadingParody": {
+    "message": "Parody"
+  },
+  "popupScoreDomainHeadingPolitical": {
+    "message": "Political"
+  },
+  "popupScoreDomainHeadingRumor": {
+    "message": "Rumor"
+  },
+  "popupScoreDomainHeadingSatire": {
+    "message": "Satire"
+  },
+  "popupScoreDomainHeadingState": {
+    "message": "State"
+  },
+  "popupScoreDomainHeadingTrusted": {
+    "message": "Trusted"
+  },
+  "popupScoreDomainHeadingUnknown": {
+    "message": "Unknown"
+  },
+  "popupScoreDomainHeadingUnreliable": {
+    "message": "Unreliable"
+  },
+
+  // "popupScoreDomainDescriptionUnsure": {
+  //   "message": "Unsure..."
+  // },
+  // "popupScoreDomainDescriptionBias": {
+  //   "message": "Bias..."
+  // },
+  // "popupScoreDomainDescriptionClickbait": {
+  //   "message": "Clickbait..."
+  // },
+  // "popupScoreDomainDescriptionConspiracy": {
+  //   "message": "Conspiracy..."
+  // },
+  // "popupScoreDomainDescriptionCredible": {
+  //   "message": "Credible..."
+  // },
+  // "popupScoreDomainDescriptionFake": {
+  //   "message": "Fake..."
+  // },
+  // "popupScoreDomainDescriptionHate": {
+  //   "message": "Hate..."
+  // },
+  // "popupScoreDomainDescriptionJunksci": {
+  //   "message": "Junk science..."
+  // },
+  // "popupScoreDomainDescriptionParody": {
+  //   "message": "Parody..."
+  // },
+  // "popupScoreDomainDescriptionPolitical": {
+  //   "message": "Political..."
+  // },
+  // "popupScoreDomainDescriptionRumor": {
+  //   "message": "Rumor..."
+  // },
+  // "popupScoreDomainDescriptionSatire": {
+  //   "message": "Satire..."
+  // },
+  // "popupScoreDomainDescriptionState": {
+  //   "message": "State..."
+  // },
+  // "popupScoreDomainDescriptionTrusted": {
+  //   "message": "Trusted..."
+  // },
+  // "popupScoreDomainDescriptionUnknown": {
+  //   "message": "Unknown..."
+  // },
+  // "popupScoreDomainDescriptionUnreliable": {
+  //   "message": "Unreliable..."
+  // },
+
+  "popupScoreTitleHeadingBias": {
+    "message": "Bias"
+  },
+  "popupScoreTitleHeadingImpartial": {
+    "message": "Impartial"
+  },
+  "popupScoreTitleHeadingUnsure": {
+    "message": "Unsure"
+  },
+
+  "popupScoreTitleDescriptionBias": {
+    "message": "Based on our analysis, title of this website has been categorized as biased with a score of $score$—0 being most biased, and 100 being most impartial.",
+    "placeholders": {
+      "score": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupScoreTitleDescriptionImpartial": {
+    "message": "Based on our analysis, title of this website has been categorized as impartial with a score of $score$—0 being most biased, and 100 being most impartial.",
+    "placeholders": {
+      "score": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupScoreTitleDescriptionUnsure": {
+    "message": "We are unable to determine how bias or impartial the title of this website is. We recommend you use your best judgment and exercise caution where appropriate."
+  },
+
+  "popupScoreContribute": {
+    "message": "Contribute to the Jumble initiative by submitting your own rating."
+  },
+
+  "inputCheckBoxLegalConsent": {
+    "message": "I hereby agree to Jumble's Terms of Use"
+  },
+
+  "inputButtonClose": {
+    "message": "Close"
+  },
+  "inputButtonNext": {
+    "message": "Next"
+  },
+  "inputButtonOkay": {
+    "message": "Okay"
+  },
+  "inputButtonPrevious": {
+    "message": "Previous"
+  },
+  "inputButtonSkip": {
+    "message": "Skip"
+  },
+  "inputButtonSubmit": {
+    "message": "Submit"
+  },
+  "inputButtonSubmitting": {
+    "message": "Submitting..."
+  },
+
+  "legalTermsOfUse": {
+    "message": "Terms of Use"
+  },
+  "legalPrivacyPolicy": {
+    "message": "Privacy Policy"
+  },
+
+  "inputIntroHeading": {
+    "message": "Your opinion matters"
+  },
+  "inputIntroDescription": {
+    "message": "We are constantly looking for ways to improve the accuracy of the information we provide. The input provided by users like yourself is essential for improving the quality of our service. We don't track your browsing behavior, neither we ask for, nor store your personal information."
+  },
+
+  "inputOutroHeading": {
+    "message": "We value your input"
+  },
+  "inputOutroDescription": {
+    "message": "We appreciate your time and effort in supporting the initiative. We'll take it from here."
+  },
+
+  "inputSurveyHeading": {
+    "message": "By participating in this survey, you are helping shape the future of news media. We would really appreciate if you would take a minute to respond to the questions provided below."
+  },
+
+  "inputReviewQuestionIdeologicalConsistency": {
+    "message": "Politically speaking, where would you position yourself on the scale of ideological consistency?"
+  },
+  "inputReviewAnswerIdeologicalConsistencyWithheld": {
+    "message": "I decline to answer"
+  },
+  "inputReviewAnswerIdeologicalConsistencyConsistentlyConservative": {
+    "message": "Consistently conservative"
+  },
+  "inputReviewAnswerIdeologicalConsistencyMostlyConservative": {
+    "message": "Mostly conservative"
+  },
+  "inputReviewAnswerIdeologicalConsistencyMixed": {
+    "message": "Mixed"
+  },
+  "inputReviewAnswerIdeologicalConsistencyMostlyLiberal": {
+    "message": "Mostly liberal"
+  },
+  "inputReviewAnswerIdeologicalConsistencyConsistentlyLiberal": {
+    "message": "Consistently liberal"
+  },
+
+  "inputReviewQuestionSourceRating": {
+    "message": "In your own opinion, would you agree that the information provided on the website you are rating is authentic and verifiable?"
+  },
+  "inputReviewAnswerSourceRatingNeitherAgreeNorDisagree": {
+    "message": "I neither agree nor disagree"
+  },
+  "inputReviewAnswerSourceRatingStronglyDisagree": {
+    "message": "I strongly disagree"
+  },
+  "inputReviewAnswerSourceRatingModeratelyDisagree": {
+    "message": "I moderately disagree"
+  },
+  "inputReviewAnswerSourceRatingSlightlyDisagree": {
+    "message": "I slightly disagree"
+  },
+  "inputReviewAnswerSourceRatingSlightlyAgree": {
+    "message": "I slightly agree"
+  },
+  "inputReviewAnswerSourceRatingModeratelyAgree": {
+    "message": "I moderately agree"
+  },
+  "inputReviewAnswerSourceRatingStronglyAgree": {
+    "message": "I strongly agree"
+  },
+  "inputReviewAnswerSourceRatingSatirical": {
+    "message": "I find the information satirical"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "name": "jumble",
+  "version": "0.12.1",
+  "private": true,
+  "homepage": "/",
+  "dependencies": {
+    "autoprefixer": "^7.2.6",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^20.0.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-react-app": "^3.1.1",
+    "babel-runtime": "^6.26.0",
+    "case-sensitive-paths-webpack-plugin": "^2.1.2",
+    "chalk": "^1.1.3",
+    "css-loader": "^0.28.11",
+    "dotenv": "^4.0.0",
+    "dotenv-expand": "^4.2.0",
+    "eslint": "^4.19.1",
+    "eslint-config-react-app": "^2.1.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-flowtype": "^2.50.3",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.11",
+    "fs-extra": "^3.0.1",
+    "html-webpack-plugin": "^2.30.1",
+    "jest": "^20.0.4",
+    "object-assign": "^4.1.1",
+    "postcss-flexbugs-fixes": "^3.3.1",
+    "postcss-loader": "^2.1.6",
+    "promise": "^8.0.2",
+    "raf": "^3.4.1",
+    "react": "^16.7.0",
+    "react-dev-utils": "^5.0.3",
+    "react-dom": "^16.7.0",
+    "resolve": "^1.9.0",
+    "style-loader": "^0.19.1",
+    "sw-precache-webpack-plugin": "^0.11.5",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.12.0",
+    "webpack-manifest-plugin": "^1.3.2",
+    "whatwg-fetch": "^2.0.4"
+  },
+  "scripts": {
+    "_build-css": "node-sass-chokidar src/styles/scss/ -o src/styles/css/",
+    "_build-development": "npm run _build-css && node react-scripts/build.development.js",
+    "_build-production": "npm run _build-css && node react-scripts/build.production.js",
+    "pcd": "npm run _build-development && cross-env NODE_ENV=development PLATFORM=chromium node react-scripts/package.js",
+    "pcp": "npm run _build-production && cross-env NODE_ENV=production PLATFORM=chromium node react-scripts/package.js",
+    "pfd": "npm run _build-development && cross-env NODE_ENV=development PLATFORM=firefox node react-scripts/package.js",
+    "pfp": "npm run _build-production && cross-env NODE_ENV=production PLATFORM=firefox node react-scripts/package.js"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "node-sass-chokidar": "^1.3.4"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,mjs}"
+    ],
+    "setupFiles": [
+      "<rootDir>/react-config/polyfills.js"
+    ],
+    "testMatch": [
+      "<rootDir>/src/**/__tests__/**/*.{js,jsx,mjs}",
+      "<rootDir>/src/**/?(*.)(spec|test).{js,jsx,mjs}"
+    ],
+    "testEnvironment": "node",
+    "testURL": "http://localhost",
+    "transform": {
+      "^.+\\.(js|jsx|mjs)$": "<rootDir>/node_modules/babel-jest",
+      "^.+\\.css$": "<rootDir>/react-config/jest/cssTransform.js",
+      "^(?!.*\\.(js|jsx|mjs|css|json)$)": "<rootDir>/react-config/jest/fileTransform.js"
+    },
+    "transformIgnorePatterns": [
+      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs)$"
+    ],
+    "moduleNameMapper": {
+      "^react-native$": "react-native-web"
+    },
+    "moduleFileExtensions": [
+      "web.js",
+      "js",
+      "json",
+      "web.jsx",
+      "jsx",
+      "node",
+      "mjs"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  }
+}
